@@ -1,21 +1,22 @@
 import { Link, Outlet } from 'react-router-dom'
+import styles from './Nav.module.css'
 
 export default function Nav() {
   return (
     <>
-      <header>
+      <header className={styles['main-header']}>
         <div>
-          <a href="index.html">uHost</a>
+          <Link to="/" className={styles['main-header__brand']}>uHost</Link>
         </div>
-        <nav>
-          <ul>
-            <li>
+        <nav className={styles['main-nav']}>
+          <ul className={styles['main-nav__items']}>
+            <li className={styles['main-nav__item']}>
               <Link to="/packages">Packages</Link>
             </li>
-            <li>
+            <li className={styles['main-nav__item']}>
               <Link to="/customers">Customers</Link>
             </li>
-            <li>
+            <li className={styles['main-nav__item']}>
               <Link to="/hosting">Start hosting</Link>
             </li>
           </ul>
