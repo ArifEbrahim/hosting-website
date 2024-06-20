@@ -1,23 +1,31 @@
-import { Link, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 import styles from './Nav.module.css'
 
 export default function Nav() {
+  const navLinkStyles = ({ isActive }) => {
+    return `${styles['main-nav']} + ${isActive ? ':active' : ''}`
+  }
+
   return (
     <>
       <header className={styles['main-header']}>
         <div>
-          <Link to="/" className={styles['main-header__brand']}>uHost</Link>
+          <NavLink to="/" className={styles['main-header__brand']}>
+            uHost
+          </NavLink>
         </div>
         <nav className={styles['main-nav']}>
           <ul className={styles['main-nav__items']}>
             <li className={styles['main-nav__item']}>
-              <Link to="/packages">Packages</Link>
+              <NavLink to="/packages">Packages</NavLink>
             </li>
             <li className={styles['main-nav__item']}>
-              <Link to="/customers">Customers</Link>
+              <NavLink to="/customers">Customers</NavLink>
             </li>
-            <li className={styles['main-nav__item']}>
-              <Link to="/hosting">Start hosting</Link>
+            <li
+              className={`${styles['main-nav__item']} ${styles['main-nav__item--cta']}`}
+            >
+              <NavLink to="/hosting">Start hosting</NavLink>
             </li>
           </ul>
         </nav>
