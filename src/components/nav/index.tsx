@@ -2,10 +2,6 @@ import { NavLink, Outlet } from 'react-router-dom'
 import styles from './Nav.module.css'
 
 export default function Nav() {
-  const navLinkStyles = ({ isActive }) => {
-    return `${styles['main-nav']} + ${isActive ? ':active' : ''}`
-  }
-
   return (
     <>
       <header className={styles['main-header']}>

@@ -37,7 +37,7 @@ export default function Home() {
               <li>Plus Support</li>
             </ul>
             <div>
-            <button className={styles['button']}>CHOOSE PLAN</button>
+              <button className={styles['button']}>CHOOSE PLAN</button>
             </div>
           </article>
           <article className={styles['plan']}>
@@ -51,7 +51,7 @@ export default function Home() {
               <li>Priority Support</li>
             </ul>
             <div>
-            <button className={styles['button']}>CHOOSE PLAN</button>
+              <button className={styles['button']}>CHOOSE PLAN</button>
             </div>
           </article>
         </div>
