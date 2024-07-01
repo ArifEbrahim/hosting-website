@@ -56,6 +56,31 @@ export default function Home() {
           </article>
         </div>
       </section>
+      <section className={styles['key-features']}>
+        <h1 className={styles['section-title']}>
+          Many Good Reasons to Stick Around
+        </h1>
+        <ul className={styles['key-features__list']}>
+          <li className={styles['key-feature']}>
+            <div className={styles['key-feature__image']}></div>
+            <p className={styles['key-feature__description']}>
+              3,857,000 Trusting Customers
+            </p>
+          </li>
+          <li className={styles['key-feature']}>
+            <div className={styles['key-feature__image']}></div>
+            <p className={styles['key-feature__description']}>
+              99.999% Uptime Guarantee
+            </p>
+          </li>
+          <li className={styles['key-feature']}>
+            <div className={styles['key-feature__image']}></div>
+            <p className={styles['key-feature__description']}>
+              Lightning Fast CDN
+            </p>
+          </li>
+        </ul>
+      </section>
     </main>
   )
 }
