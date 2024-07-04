@@ -1,4 +1,3 @@
-import Footer from '../../components/footer'
 import styles from './Home.module.css'
 
 export default function Home() {
@@ -84,7 +83,6 @@ export default function Home() {
           </ul>
         </section>
       </main>
-      <Footer />
     </>
   )
 }
