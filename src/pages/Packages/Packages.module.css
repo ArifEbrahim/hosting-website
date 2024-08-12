@@ -12,7 +12,7 @@
 .package:hover,
 .package:active {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  /* important needed to overwrite border style applied by class selector */
+  /* important needed to overwrite border style applied by id selector */
   border-color: #ff5454 !important;
 }
 
