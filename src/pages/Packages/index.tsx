@@ -7,6 +7,7 @@ export default function Packages() {
         <section className={styles.package} id={styles.plus}>
           <a href="#">
             <h1 className={styles.package__title}>Our PLUS Plan</h1>
+            <h2 className={styles.package__badge}>RECOMMENDED</h2>
             <h2 className={styles.package__subtitle}>
               The most popular choice of our customers.
             </h2>
@@ -36,7 +37,7 @@ export default function Packages() {
             </h2>
             <p className={styles.package__info}>
               The best solution for small to large enterprises. Because hosting
-              shouldn`&apos`t be in the way!
+              shouldn&apos;t be in the way!
             </p>
           </a>
         </section>

@@ -1,5 +1,6 @@
 .container {
   margin-top: 32px;
+  background: url('../../../public/images/plans-background.jpg');
 }
 
 .package {
@@ -7,6 +8,7 @@
   width: 80%;
   margin: 16px 0px;
   border-left: none;
+  position: relative;
 }
 
 .package:hover,
@@ -21,6 +23,17 @@
   color: inherit;
   display: block;
   padding: 32px;
+}
+
+.package__badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 12px;
+  color: white;
+  background: #ff5454;
+  padding: 8px;
 }
 
 .package__subtitle {

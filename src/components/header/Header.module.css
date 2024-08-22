@@ -4,6 +4,7 @@
   padding: 8px 16px;
   background-color: #2ddf5c;
   top: 0;
+  z-index: 1;
 }
 
 .main_header > div {
