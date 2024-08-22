@@ -1,7 +1,9 @@
 .main_header {
   width: 100%;
+  position: fixed;
   padding: 8px 16px;
   background-color: #2ddf5c;
+  top: 0;
 }
 
 .main_header > div {
