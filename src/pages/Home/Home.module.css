@@ -1,3 +1,7 @@
+.container {
+  margin-top: 43px;
+}
+
 .product_overview {
   background: url('../../../public/images/freedom.jpg') left 5% bottom 65% /
     cover no-repeat border-box;
