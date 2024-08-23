@@ -6,7 +6,10 @@ export default function Header() {
     <header className={styles.main_header}>
       <div>
         <NavLink to="/" className={styles.main_header__brand}>
-          uHost
+          <img
+            src="../../../public/images/uhost-icon.png"
+            alt="uHost - your favourite hosting company"
+          />
         </NavLink>
       </div>
       <nav className={styles.main_nav}>
