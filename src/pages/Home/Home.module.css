@@ -1,8 +1,11 @@
 .product_overview {
-  background: url('../../../public/images/freedom.jpg');
+  background: url('../../../public/images/freedom.jpg') left 5% bottom 65% /
+    cover no-repeat border-box;
   width: 100%;
   height: 528px;
   padding: 10px;
+  margin-top: 40px;
+  position: relative;
 }
 
 .section_title {
@@ -14,6 +17,9 @@
 .product_overview h1 {
   color: white;
   font-family: 'Anton', sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
 }
 
 .plan__list {
@@ -115,7 +121,7 @@
   vertical-align: top;
 }
 
-.key_feature__image{
+.key_feature__image {
   background: #ffcede;
   width: 128px;
   height: 128px;
